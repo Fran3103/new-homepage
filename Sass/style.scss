@@ -1,0 +1,102 @@
+@import url(/Sass/cssreload.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+$Softorange: hsl(35, 77%, 62%);
+$Softred: hsl(5, 85%, 63%);
+$Off-white: hsl(36, 100%, 99%);
+$Grayishblue: hsl(233, 8%, 79%);
+$Darkgrayishblue: hsl(236, 13%, 42%);
+$Verydarkblue: hsl(240, 100%, 5%);
+$font-family: 'Inter';
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+h1{
+    color: $Verydarkblue;
+    font-family: $font-family;
+}
+h2{
+    color: $Softorange;
+}
+
+h3{
+    color: $Off-white;
+}
+h4{
+    color: $Verydarkblue;
+}
+
+p{
+    color: $Grayishblue;
+}
+
+header{
+    width: 100%;
+    .navegation{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            width: 25px;
+            height: 20px;
+        }
+
+        .menu{
+            display: none;
+        }
+    }
+
+    
+}
+
+section{
+
+    width: 100%;
+    height: 100%;
+    .article_1{
+        margin-top: 20px;
+       .img_art1{
+    
+       background-image: url(/assets/images/image-web-3-mobile.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+        width: 100%;
+        height: 300px;
+       
+
+       }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    .attribution {
+        margin: 40px 0; 
+        font-size: 0.8em; 
+        text-align: center; 
+        a { color: hsl(228, 45%, 44%); 
+            text-decoration: none;
+        }
+    }
+  
+}
