@@ -12,7 +12,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 15px;
+    font-family: $font-family;
 }
 h1{
     color: $Verydarkblue;
@@ -40,10 +41,14 @@ header{
         display: flex;
         justify-content: space-between;
         .logo{
-            width: 25px;
+            width: 30px;
             height: 20px;
         }
-
+        .menu_mobile{
+            margin-top: 5px;
+            width: 35px;
+            height: 15px;
+        }
         .menu{
             display: none;
         }
@@ -51,23 +56,153 @@ header{
 
     
 }
-
+/* Secciones*/
 section{
 
     width: 100%;
     height: 100%;
+
+/* articulo 1 y titulo*/
     .article_1{
         margin-top: 20px;
-       .img_art1{
+        .img_art1{
     
-       background-image: url(/assets/images/image-web-3-mobile.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
+        background-image: url(/assets/images/image-web-3-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
         height: 300px;
-       
+        }
 
-       }
+        .txt_art1_title{
+            font-size: 2em;
+            font-weight: 800;
+            line-height: 1;
+            margin: 15px 0;
+            margin-right: 100px;
+            color: $Verydarkblue;
+            font-family: $font-family;
+        }
+        .txt_art1_parr{
+            color: $Darkgrayishblue;
+            line-height: 1.5;
+            font-size: 0.9em;
+            font-weight: 400;
+            font-family: $font-family;
+            margin-right: 17px;
+            margin-bottom: 10px;
+        }
+
+        .article_1_btn{
+            
+            text-transform: uppercase;
+            background-color: $Softred;
+            border-style: none;
+            padding: 13px 25px;
+            color: $Off-white;
+            letter-spacing: 3px;
+            font-size: 0.6em;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-bottom: 40px; 
+        }
+    }
+
+    /*articulo 2 noticias*/
+
+    .article_2{
+        width: 100%;
+        background-color: $Verydarkblue;
+        padding: 20px;
+        margin-bottom: 30px;
+        .txt_art2_title{
+            font-size: 1.8em;
+            font-weight: 700;
+            font-family: $font-family;
+            margin-bottom: 30px;
+        }
+        .art2_new{
+            h3{
+                margin-top: 10px;
+                font-family:$font-family;
+                font-weight: 700;
+                margin-bottom: 10px;
+                color: $Off-white;
+            }
+            p{
+                font-family: $font-family;
+                font-weight: 400;
+                color: $Grayishblue;
+                font-size: 0.9em;
+                line-height: 1.5;
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+            .last-new-p{
+                margin-bottom: 1px;
+            }
+
+            hr{
+                margin: 25px 0;
+                
+                
+            }
+
+        }
+    }
+
+    /* Articulo 3 - ranking*/
+
+    .article_3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+        .top{
+            display: flex;
+            gap: 30px;
+            width: 100%;
+            
+            justify-content: space-between;
+            align-items: center;
+            .img_top{
+                width: 100px;
+                height: 140px;
+        }
+            .txt_top{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 20px;
+                
+                h3{
+                    color: $Grayishblue;
+                    font-size: 1.6em;
+                }
+
+                h4{
+                    color: $Verydarkblue;
+                    font-weight: 800;
+                }
+
+                p{
+                    line-height: 1.5;
+                    font-size: 0.9em;
+                    margin-right: 15px;
+                    color: $Grayishblue;
+                    font-weight: 400;
+                }
+
+                .firt-top-p{
+                    margin-right: 0;
+                }
+            }
+        }
     }
 }
 

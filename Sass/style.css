@@ -5,7 +5,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 15px;
+  font-family: "Inter";
 }
 
 h1 {
@@ -38,16 +39,25 @@ header .navegation {
   justify-content: space-between;
 }
 header .navegation .logo {
-  width: 25px;
+  width: 30px;
   height: 20px;
+}
+header .navegation .menu_mobile {
+  margin-top: 5px;
+  width: 35px;
+  height: 15px;
 }
 header .navegation .menu {
   display: none;
 }
 
+/* Secciones*/
 section {
   width: 100%;
   height: 100%;
+  /* articulo 1 y titulo*/
+  /*articulo 2 noticias*/
+  /* Articulo 3 - ranking*/
 }
 section .article_1 {
   margin-top: 20px;
@@ -58,6 +68,116 @@ section .article_1 .img_art1 {
   background-size: cover;
   width: 100%;
   height: 300px;
+}
+section .article_1 .txt_art1_title {
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1;
+  margin: 15px 0;
+  margin-right: 100px;
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter";
+}
+section .article_1 .txt_art1_parr {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: "Inter";
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+section .article_1 .article_1_btn {
+  text-transform: uppercase;
+  background-color: hsl(5, 85%, 63%);
+  border-style: none;
+  padding: 13px 25px;
+  color: hsl(36, 100%, 99%);
+  letter-spacing: 3px;
+  font-size: 0.6em;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+section .article_2 {
+  width: 100%;
+  background-color: hsl(240, 100%, 5%);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+section .article_2 .txt_art2_title {
+  font-size: 1.8em;
+  font-weight: 700;
+  font-family: "Inter";
+  margin-bottom: 30px;
+}
+section .article_2 .art2_new h3 {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: hsl(36, 100%, 99%);
+}
+section .article_2 .art2_new p {
+  font-family: "Inter";
+  font-weight: 400;
+  color: hsl(233, 8%, 79%);
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+section .article_2 .art2_new .last-new-p {
+  margin-bottom: 1px;
+}
+section .article_2 .art2_new hr {
+  margin: 25px 0;
+}
+section .article_3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  gap: 30px;
+}
+section .article_3 .top {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+section .article_3 .top .img_top {
+  width: 100px;
+  height: 140px;
+}
+section .article_3 .top .txt_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+section .article_3 .top .txt_top h3 {
+  color: hsl(233, 8%, 79%);
+  font-size: 1.6em;
+}
+section .article_3 .top .txt_top h4 {
+  color: hsl(240, 100%, 5%);
+  font-weight: 800;
+}
+section .article_3 .top .txt_top p {
+  line-height: 1.5;
+  font-size: 0.9em;
+  margin-right: 15px;
+  color: hsl(233, 8%, 79%);
+  font-weight: 400;
+}
+section .article_3 .top .txt_top .firt-top-p {
+  margin-right: 0;
 }
 
 footer .attribution {
