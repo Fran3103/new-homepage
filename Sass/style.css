@@ -223,6 +223,9 @@ footer .attribution a {
 }
 
 @media screen and (min-width: 720px) {
+  header {
+    max-width: 95vw;
+  }
   header .navegation .logo {
     margin-top: 20px;
     margin-left: 0;
@@ -262,10 +265,17 @@ footer .attribution a {
   section .article_1 .img_art1 {
     background-image: url(/assets/images/image-web-3-desktop.jpg);
   }
+  footer .attribution {
+    margin-top: 50px;
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 900px) {
+  header {
+    max-width: 1110px;
+  }
   section {
-    max-width: 95vw;
+    max-width: 1110px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -342,5 +352,70 @@ footer .attribution a {
   section .article_3 .top .txt_top {
     height: 170px;
     gap: 5px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  header {
+    margin-top: 40px;
+  }
+  header .navegation .logo {
+    width: 45px;
+    height: 35px;
+  }
+  header .navegation .menu .menu_lista {
+    font-size: 1.1rem;
+    gap: 35px;
+  }
+  section {
+    margin-top: 40px;
+    grid-template-rows: 250px 200px 270px;
+  }
+  section .article_1 .txt_art1 .txt_art1_title {
+    text-align: left;
+    font-size: 3.1rem;
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+  section .article_1 .txt_art1 .txt_art1_parr {
+    padding: 10px;
+    padding-bottom: 0;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  section .article_1 .txt_art1 .article_1_btn {
+    margin-top: 20px;
+  }
+  section .article_2 .art2_new {
+    font-size: 1.1rem;
+  }
+  section .article_3 {
+    width: 100%;
+  }
+  section .article_3 .top {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+  }
+  section .article_3 .top .img_top {
+    width: 100px;
+  }
+  section .article_3 .top .txt_top {
+    font-size: 1.1rem;
+    justify-content: stretch;
+    text-align: center;
+  }
+  section .article_3 .top .txt_top h3 {
+    font-size: 1.9rem;
+    margin-top: 0;
+  }
+  section .article_3 .top .txt_top h4 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  section .article_3 .top .txt_top p {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: left;
   }
 }/*# sourceMappingURL=style.css.map */

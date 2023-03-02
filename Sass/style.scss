@@ -260,6 +260,7 @@ footer{
 @media screen and (min-width: 720px) {
 
     header{
+        max-width: 95vw;
         .navegation{
 
             .logo{
@@ -314,12 +315,21 @@ footer{
         }    
 
     }
+
+    footer{
+        .attribution{
+            margin-top: 50px;
+            font-size: 1rem;
+        }
+    }
 }
 
 @media screen and (min-width: 900px) {
-
+    header{
+        max-width: 1110px;
+    }
     section{
-        max-width:95vw;
+        max-width:1110px;
         width: 100%;
         
         display: grid;
@@ -409,5 +419,92 @@ footer{
         }
     }
     
+
+}
+
+@media screen  and (min-width: 1100px) {
+
+    header{
+        margin-top: 40px;
+       
+
+        .navegation{
+            .logo{
+                width: 45px;
+                height: 35px;
+            }
+            .menu{
+                .menu_lista{
+                    font-size: 1.1rem;
+                    gap: 35px;
+                }
+            }
+        }
+    }
+    
+    section{
+        margin-top: 40px;
+        grid-template-rows: 250px 200px 270px;
+        .article_1{
+
+           
+            .txt_art1{
+                .txt_art1_title{
+                    text-align: left;
+                    font-size: 3.1rem;
+                    margin-top: 30px;
+                    margin-right: 50px;
+                }
+                .txt_art1_parr{
+                    padding: 10px;
+                    padding-bottom: 0;
+                    margin-right: 10px;
+                    font-size: 1rem;
+                    text-align: justify;
+                }
+                .article_1_btn{
+                    margin-top: 20px;
+                }
+            }
+           
+        }
+        .article_2{
+            .art2_new{
+                font-size: 1.1rem;
+
+            }
+        }
+        .article_3{
+            width: 100%;
+            
+            .top{
+                height: 100px;
+                width: 100%;
+                justify-content: center;
+                .img_top{
+                    width: 100px;
+                }
+                .txt_top{
+                    font-size: 1.1rem;
+                    justify-content: stretch;
+                    text-align: center;
+                    h3{
+                        font-size: 1.9rem;
+                        margin-top: 0;
+                    }
+                    h4{
+                        font-size: 1.1rem;
+                        margin-top: 20px;
+                    }
+                    p{
+                        font-size: 1rem;
+                        margin-top: 10px;
+                        text-align: left;
+                    
+                    }
+                }
+            }
+        }
+    }
 
 }
