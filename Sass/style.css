@@ -54,7 +54,6 @@ header .navegation .menu {
   width: 70%;
   height: 100vh;
   background-color: hsl(36, 100%, 99%);
-  position: absolute;
   position: fixed;
   left: 30%;
   top: 0;
@@ -291,7 +290,7 @@ footer .attribution a {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1f 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 20px;
   }

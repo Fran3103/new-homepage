@@ -7,12 +7,12 @@ const  menuMobile = document.querySelector('.menu');
 menuBtn.addEventListener('click', () =>{
 
     menuOpen (menuMobile);
-})
+});
 
 
 closeBtn.addEventListener('click', ()=>{
     menuClose(menuMobile);
-})
+});
 
 function menuOpen(menuMobile){
     menuMobile.style.display = 'flex';
