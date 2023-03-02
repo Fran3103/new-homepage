@@ -49,6 +49,38 @@ header .navegation .menu_mobile {
 }
 header .navegation .menu {
   display: none;
+  flex-direction: column;
+  padding: 20px;
+  width: 70%;
+  height: 100vh;
+  background-color: hsl(36, 100%, 99%);
+  position: absolute;
+  position: fixed;
+  left: 30%;
+  top: 0;
+  z-index: 1000;
+}
+header .navegation .menu .menu_close {
+  width: 25px;
+  height: 20px;
+  margin-top: 5px;
+  display: block;
+  position: relative;
+  left: 90%;
+}
+header .navegation .menu .menu_lista {
+  margin-top: 100px;
+  list-style: none;
+}
+header .navegation .menu .menu_lista li {
+  margin-bottom: 20px;
+}
+header .navegation .menu .menu_lista a {
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter";
+  font-weight: 700;
 }
 
 /* Secciones*/

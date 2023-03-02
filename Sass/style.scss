@@ -50,7 +50,46 @@ header{
             height: 15px;
         }
         .menu{
+
             display: none;
+            flex-direction: column;
+            padding: 20px;
+            width: 70%;
+            height: 100vh;
+            background-color: $Off-white;
+            position:absolute;
+            position: fixed;
+            left:30%;
+            top:0;
+            z-index: 1000;
+                .menu_close{
+                    width: 25px;
+                    height: 20px;
+                    margin-top: 5px;
+                    display: block;
+                    position: relative;
+                    left:90%;
+                    
+                }
+                .menu_lista{
+                    margin-top: 100px;
+                    list-style: none;
+                    li{
+                        margin-bottom: 20px;
+                        
+                    }
+                
+                    a{
+                        margin-bottom: 40px;
+                        text-decoration: none;
+                        color:$Verydarkblue;
+                        font-family: $font-family;
+                        font-weight: 700;
+                
+                    }
+                }
+
+
         }
     }
 
@@ -206,24 +245,6 @@ section{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     .attribution {
         margin: 40px 0; 
@@ -233,5 +254,5 @@ footer{
             text-decoration: none;
         }
     }
-  
+
 }
