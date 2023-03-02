@@ -247,7 +247,7 @@ footer .attribution a {
   header .navegation .menu_mobile {
     display: none;
   }
-  header .navegation .menu-desktop {
+  header .navegation .menu {
     padding: 0;
     display: flex;
     flex-direction: row-reverse;
@@ -259,10 +259,10 @@ footer .attribution a {
     margin-top: 20px;
     position: static;
   }
-  header .navegation .menu-desktop .menu_close {
+  header .navegation .menu .menu_close {
     display: none;
   }
-  header .navegation .menu-desktop .menu_lista {
+  header .navegation .menu .menu_lista {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -270,7 +270,7 @@ footer .attribution a {
     gap: 20px;
     margin-top: 0;
   }
-  header .navegation .menu-desktop a:hover {
+  header .navegation .menu a:hover {
     color: hsl(35, 77%, 62%);
     cursor: pointer;
   }
