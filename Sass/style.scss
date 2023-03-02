@@ -145,6 +145,11 @@ section{
             margin-top: 10px;
             margin-bottom: 40px; 
         }
+        .article_1_btn:hover{
+            cursor: pointer;
+            background-color: $Verydarkblue;
+
+        }
     }
 
     /*articulo 2 noticias*/
@@ -167,6 +172,10 @@ section{
                 font-weight: 700;
                 margin-bottom: 10px;
                 color: $Off-white;
+            }
+            h3:hover{
+                cursor: pointer;
+                color: $Softorange;
             }
             p{
                 font-family: $font-family;
@@ -223,10 +232,15 @@ section{
                     color: $Grayishblue;
                     font-size: 1.6em;
                 }
+            
 
                 h4{
                     color: $Verydarkblue;
                     font-weight: 800;
+                }
+                h4:hover{
+                    cursor: pointer;
+                    color: $Softorange;
                 }
 
                 p{
